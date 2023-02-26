@@ -42,15 +42,15 @@ img{
 .imag{
     max-width: 350px;
     max-height: 350px;
-    border-radius: .5rem;
+    border-radius: 15px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
 }
 
 .imag-hover{
-    max-width: 350px;
-    max-height: 350px;
+    width: 300px;
+    height: 303px;
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
