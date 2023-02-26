@@ -29,7 +29,7 @@ img{
 
 .card{
     background-color: var(--VerydarkblueCard);
-    max-width: 350px;
+    max-width:350px;
     gap: 1rem;
     display: flex;
     flex-direction: column;
@@ -40,8 +40,8 @@ img{
 }
 
 .imag{
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: .5rem;
     overflow: hidden;
     position: relative;
@@ -49,8 +49,8 @@ img{
 }
 
 .imag-hover{
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
