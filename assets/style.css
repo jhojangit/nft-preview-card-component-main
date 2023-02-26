@@ -39,6 +39,14 @@ img{
     border-radius: .5rem;
 }
 
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    max-height: 350px;
+}
+
 .imag{
     max-width: 350px;
     max-height: 350px;
@@ -50,7 +58,7 @@ img{
 
 .imag-hover{
     width: 300px;
-    height: 303px;
+    height: 300px;
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
@@ -62,17 +70,14 @@ img{
     opacity: 0;
 }
 
-
 .imag-hover:hover{
     opacity: 1;
 }
-
 
 .imag-hover img{
     width: 100px;
     height: 100px;
 }
-
 
 .description{
     display: flex;
